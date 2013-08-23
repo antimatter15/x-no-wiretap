@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "X-No-Wiretap",
+    "description": "Aid the NSA's unwitting collection of domestic internet traffic!",
+    "version": "1.0",
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "<all_urls>"
+    ],
+    "icons": {
+      "128": "logo.png"
+    },
+    "background": {
+      "scripts": ["header.js"],
+      "persistent": true
+    }
+}
